@@ -105,6 +105,7 @@
 			quidu      	"51480FCB02F5")))
 	    (object UseCase "Vao Shop"
 		quid       	"51480FCB02F5"
+		stereotype 	"use-case realization"
 		visible_modules 	(list dependency_list
 		    (object Dependency_Relationship
 			quid       	"5148108B0388"
@@ -359,17 +360,17 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@5
-			    location   	(978, 1306)
+			    location   	(978, 1309)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	630
+			    max_width  	648
 			    justify    	0
 			    label      	"Vao Shop")
+			icon       	"use-case realization"
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
-			quidu      	"51480FCB02F5"
-			height     	118)
+			quidu      	"51480FCB02F5")
 		    (object DependencyView "" @6
 			font       	(object Font
 			    size       	10
@@ -382,7 +383,7 @@
 			    default_color 	TRUE)
 			stereotype 	(object SegLabel @7
 			    Parent_View 	@6
-			    location   	(612, 1106)
+			    location   	(611, 1106)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -407,7 +408,7 @@
 			supplier   	@5
 			vertices   	(list Points
 			    (395, 1263)
-			    (866, 1183))
+			    (865, 1183))
 			line_style 	0)
 		    (object DependencyView "" @8
 			font       	(object Font
@@ -446,7 +447,7 @@
 			supplier   	@5
 			vertices   	(list Points
 			    (483, 1629)
-			    (883, 1251))
+			    (882, 1252))
 			line_style 	0)
 		    (object DependencyView "" @10
 			font       	(object Font
@@ -460,7 +461,7 @@
 			    default_color 	TRUE)
 			stereotype 	(object SegLabel @11
 			    Parent_View 	@10
-			    location   	(822, 903)
+			    location   	(819, 902)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -485,7 +486,7 @@
 			supplier   	@5
 			vertices   	(list Points
 			    (601, 887)
-			    (900, 1109))
+			    (894, 1107))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Tao Profile" @12
 			location   	(1251, 452)
@@ -523,7 +524,7 @@
 			    default_color 	TRUE)
 			stereotype 	(object SegLabel @14
 			    Parent_View 	@13
-			    location   	(980, 820)
+			    location   	(980, 819)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -547,7 +548,7 @@
 			client     	@5
 			supplier   	@12
 			vertices   	(list Points
-			    (996, 1110)
+			    (998, 1107)
 			    (1185, 615))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Su Dung Vat Pham" @15
@@ -747,7 +748,7 @@
 			annotation 	8
 			autoResize 	TRUE)
 		    (object AssociationViewNew "$UNNAMED$0" @24
-			location   	(1408, 1185)
+			location   	(1410, 1186)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -763,26 +764,26 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$1" @25
 				Parent_View 	@24
-				location   	(142, 626)
+				location   	(144, 627)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"51480FF802DE"
 				client     	@24
 				supplier   	@5
 				vertices   	(list Points
-				    (1408, 1185)
-				    (1086, 1170))
+				    (1410, 1186)
+				    (1089, 1171))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$2" @26
 				Parent_View 	@24
-				location   	(142, 626)
+				location   	(144, 627)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"51480FF802E0"
 				client     	@24
 				supplier   	@23
 				vertices   	(list Points
-				    (1408, 1185)
+				    (1410, 1186)
 				    (1731, 1201))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$3" @27
@@ -942,7 +943,7 @@
 				    (1814, 1126))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$15" @39
-			location   	(1489, 1551)
+			location   	(1484, 1558)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -958,27 +959,27 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$16" @40
 				Parent_View 	@39
-				location   	(-203, 673)
+				location   	(-208, 680)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5148116D0031"
 				client     	@39
 				supplier   	@20
 				vertices   	(list Points
-				    (1489, 1551)
+				    (1484, 1558)
 				    (1274, 1797))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$17" @41
 				Parent_View 	@39
-				location   	(-203, 673)
+				location   	(-208, 680)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5148116D0033"
 				client     	@39
 				supplier   	@23
 				vertices   	(list Points
-				    (1489, 1551)
-				    (1705, 1306))
+				    (1484, 1558)
+				    (1694, 1319))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$18" @42
 			location   	(2100, 1091)
@@ -1166,7 +1167,7 @@
 			    default_color 	TRUE)
 			stereotype 	(object SegLabel @54
 			    Parent_View 	@53
-			    location   	(1234, 1524)
+			    location   	(1233, 1525)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -1190,7 +1191,7 @@
 			client     	@5
 			supplier   	@20
 			vertices   	(list Points
-			    (1036, 1331)
+			    (1035, 1334)
 			    (1205, 1797))
 			line_style 	0)
 		    (object NoteView @55
@@ -1263,8 +1264,8 @@
 			client     	@58
 			supplier   	@39
 			vertices   	(list Points
-			    (1756, 1942)
-			    (1489, 1551))
+			    (1753, 1942)
+			    (1484, 1558))
 			line_style 	0)))))
     root_category 	(object Class_Category "Logical View"
 	quid       	"5147358E02CB"
@@ -5619,7 +5620,7 @@
 		    (object Attribute
 			tool       	"Java"
 			name       	"ClassPath"
-			value      	";C:\\Program Files\\Java\\jdk1.7.0_15\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_15\\lib\\dt.jar;C:\\Program Files\\Java\\jdk1.7.0_15\\lib\\tools.jar")
+			value      	";C:\\Program Files\\Java\\jdk1.7.0_03\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\lib\\dt.jar;C:\\Program Files\\Java\\jdk1.7.0_03\\lib\\tools.jar")
 		    (object Attribute
 			tool       	"Java"
 			name       	"ReferenceClasspath"
