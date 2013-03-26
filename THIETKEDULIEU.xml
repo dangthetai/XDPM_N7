@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GOLDMINERCLASSIC>
+  
+  <DANHSACHDAOCU>
+    <DAOCU TENDAOCU="Danh Bong Kim Cuong" ID="001" CHUCNANG="Lam tang gia tri cua kim cuong"/>
+    <DAOCU TENDAOCU="Bo suu tap da" ID="002" CHUCNANG="tang gia tri cua da len 3 lan"/>
+    <DAOCU TENDAOCU="Nuoc tang luc" ID="003" CHUCNANG="tang suc manh cua nhan vat, keo vat pham nhanh hon"/>
+    <DAOCU TENDAOCU="Hoa may man" ID="004" CHUCNANG="tang do may man khi keo duoc vat pham tui ngau nhien"/>
+    <DAOCU TENDAOCU="Thuoc no" ID="005" CHUCNANG="huy tai nguyen dang keo len"/>    
+  </DANHSACHDAOCU>
+  
+  <DANHSACHTAINGUYEN>
+    <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Tui ngau nhien" ID="02" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Kim cuong" ID="04" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Con thu" ID="05" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Thu ngam kim cuong" ID="06" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Thuoc no TNT" ID="07" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Dau lau" ID="08" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Xuong" ID="09" GIATRI=""/>
+  </DANHSACHTAINGUYEN>
+
+  <DANHSACHMANCHOI>
+    <MANCHOI ID="01" MUCTIEU="6000" THOIGIAN="90">
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Con thu" ID="05" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Kim cuong" ID="04" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Tui ngau nhien" ID="02" GIATRI=""/>
+    </MANCHOI>
+    <MANCHOI ID="02" MUCTIEU="6000" THOIGIAN="90">
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Kim cuong" ID="04" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Thu ngam kim cuong" ID="06" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Tui ngau nhien" ID="02" GIATRI=""/>      
+    </MANCHOI>
+    <MANCHOI ID="03" MUCTIEU="6000" THOIGIAN="90">
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Thuoc no TNT" ID="07" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Xuong" ID="09" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Dau lau" ID="08" GIATRI=""/>
+      <TAINGUYEN TENTAINGUYEN ="Tui ngau nhien" ID="02" GIATRI=""/>
+    </MANCHOI>
+  </DANHSACHMANCHOI> 
+</GOLDMINERCLASSIC>
+
+<!--<NGUOICHOI>
+  <TIEN GIATRI="5000"/>]
+  <CACDAOCU>
+    <DAOCU TENDAOCU="..." ID="..." CHUCNANG="..."/>
+    <DAOCU TENDAOCU="..." ID="..." CHUCNANG="..."/>
+  </CACDAOCU>
+  <MANCHOI ID="10" MUCTIEU="6000" THOIGIAN="90">
+    <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Vang" ID="01" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Da" ID="03" GIATRI=""/>
+    <TAINGUYEN TENTAINGUYEN ="Tui ngau nhien" ID="02" GIATRI=""/>
+  </MANCHOI>
+</NGUOICHOI>-->
